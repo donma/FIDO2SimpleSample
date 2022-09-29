@@ -1,0 +1,47 @@
+﻿@page
+@model Fido2SimpleSample.Pages.LoginModel
+@{
+}
+
+<div>
+
+    <h1 class="display-4">LOGIN with Device</h1>
+    <br />
+
+
+    <form id="formLogin" method="post">
+
+        <div class="field">
+            <label class="label">Username(User Id)</label>
+            <div class="control has-icons-left has-icons-right">
+                <input class="input" type="text" placeholder="donma" id="userId" required>
+                <span class="icon is-small is-left">
+                    <i class="fas fa-user"></i>
+                </span>
+            </div>
+        </div>
+
+
+        <div class="field">
+            <label class="label">Password</label>
+            <div class="control has-icons-left has-icons-right">
+                <input class="input" type="password" placeholder="Just for test" id="userPass">
+                <span class="icon is-small is-left">
+                    <i class="fas fa-user"></i>
+                </span>
+            </div>
+
+        </div>
+        <button class="btn btn-primary btn-block btn-flat" id="login" type="button" value="LOGIN">LOGIN</button>
+
+    </form>
+
+
+
+</div>
+
+@section Scripts {
+
+    <script src="~/js/login.js"></script>
+
+}

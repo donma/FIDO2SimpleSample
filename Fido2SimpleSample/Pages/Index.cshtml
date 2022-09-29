@@ -1,0 +1,57 @@
+﻿@page
+@model IndexModel
+@{
+
+}
+
+<div>
+
+    <h1 class="display-4">REGIST USER</h1>
+    <br />
+
+
+    <form id="register" method="post">
+
+        <div class="field">
+            <label class="label">Username(User Id)</label>
+            <div class="control has-icons-left has-icons-right">
+                <input class="input" type="text" placeholder="donma" id="userId" required>
+                <span class="icon is-small is-left">
+                    <i class="fas fa-user"></i>
+                </span>
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">Display name</label>
+            <div class="control has-icons-left has-icons-right">
+                <input class="input" type="text" placeholder="Donma Hsu" id="userDisplay">
+                <span class="icon is-small is-left">
+                    <i class="fas fa-user"></i>
+                </span>
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">Password</label>
+            <div class="control has-icons-left has-icons-right">
+                <input class="input" type="password" placeholder="Just for test" id="userPass">
+                <span class="icon is-small is-left">
+                    <i class="fas fa-user"></i>
+                </span>
+            </div>
+            <p class="help">測試用密碼不要打真的</p>
+        </div>
+        <button class="btn btn-primary btn-block btn-flat" id="regist" type="button" value="REGIST">REGIST</button>
+
+    </form>
+
+
+
+</div>
+
+@section Scripts {
+
+    <script src="~/js/regist.js"></script>
+
+}
