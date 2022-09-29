@@ -1,9 +1,9 @@
 
 
 
-string ServerDomain = "dmauth.azurewebsites.net";
+string ServerDomain = "localhost";
 var serverName = "DFIDO2-TEST";
-var origin = "https://dmauth.azurewebsites.net";
+var origin = "https://localhost:7091";
 
 
 var builder = WebApplication.CreateBuilder(args);
