@@ -1,4 +1,4 @@
-# FIDO2 SIMPLE SAMPLE
+# FIDO2 WEBAUTH SIMPLE SAMPLE
 
 基本上，就是自己重新改寫 https://fido2-net-lib.passwordless.dev/
 
